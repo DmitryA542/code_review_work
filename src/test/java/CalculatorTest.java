@@ -24,9 +24,4 @@ class CalculatorTest {
     void times() {
         assertEquals(4, calculator.times(2,2));
     }
-
-    @Test
-    void solver() {
-        assertEquals(64, calculator.solver(2));
-    }
 }
